@@ -4,12 +4,14 @@ body {
   padding: 0;
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background: url(../images/background.png) no-repeat center center fixed;
+  background: url(../images/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: #FFF;
+  color: #30546e;
+  text-shadow: 1px 1px 1px #d2e4f0;
+  font-size: 1.25rem;
 }
 
 main {
@@ -20,8 +22,10 @@ main {
 }
 
 h1, h2 {
+  color: #30546e;
+  text-shadow: 1px 1px 1px #d2e4f0;
   text-transform: uppercase;
-  text-shadow: 1px 1px 1px #000;
+  text-decoration: underline;
 }
 
 img {
@@ -34,10 +38,11 @@ ul {
 }
 ul a {
   text-decoration: none;
-  color: #FFF;
+  color: #d2e4f0;
+  text-shadow: 1px 1px 1px #30546e;
 }
 ul a:hover {
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 2px 2px 2px #30546e;
 }
 
 /*# sourceMappingURL=main.css.map */
