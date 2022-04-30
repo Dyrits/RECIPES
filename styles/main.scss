@@ -25,8 +25,6 @@ main {
 }
 
 h1, h2 {
-  color: #30546e;
-  text-shadow: 1px 1px 1px #d2e4f0;
   text-transform: uppercase;
   text-decoration: underline;
 }
@@ -42,7 +40,11 @@ ul {
     text-decoration: none;
     color: #d2e4f0;
     text-shadow: 1px 1px 1px #30546e;
-    &:hover { text-shadow: 2px 2px 2px #30546e; }
+    &:hover {
+      color: #30546e;
+      text-shadow: 1px 1px 1px #d2e4f0;
+      text-decoration: underline;
+    }
   }
 }
 

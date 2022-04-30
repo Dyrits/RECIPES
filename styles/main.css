@@ -24,8 +24,6 @@ main {
 }
 
 h1, h2 {
-  color: #30546e;
-  text-shadow: 1px 1px 1px #d2e4f0;
   text-transform: uppercase;
   text-decoration: underline;
 }
@@ -44,7 +42,9 @@ ul a {
   text-shadow: 1px 1px 1px #30546e;
 }
 ul a:hover {
-  text-shadow: 2px 2px 2px #30546e;
+  color: #30546e;
+  text-shadow: 1px 1px 1px #d2e4f0;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map */
